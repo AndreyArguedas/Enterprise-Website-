@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #000000;
+}
+
+li{
+    margin-left:80px;
+}
+
+a{
+    font-size:20px;
+}
+
