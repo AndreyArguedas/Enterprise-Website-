@@ -35,3 +35,20 @@ a{
     width:920px;
     height:400px;
 }
+#content{
+    margin-top:50px;
+    background-color:#232324;
+}
+
+.thumbnail{
+    background-color:#0e1121;
+    border-color:#0e1121;
+}
+
+.caption{
+    background-color:#0e1121;
+}
+
+h3{
+    color:#fff;
+}
