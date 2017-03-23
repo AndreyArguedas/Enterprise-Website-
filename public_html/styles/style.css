@@ -19,7 +19,7 @@ ul{
     list-style-type: none;
 }
 #banSlide{
-    width:920px;
+    width:1150px;
     height:400px;
     overflow:hidden;
     margin-right:auto;
@@ -28,14 +28,14 @@ ul{
 
 .slider{
     display:block;
-    width:920px;
+    width:1150px;
     height:400px;
 }
 
 .slide{
     float:left;
     list-style-type: none;
-    width:920px;
+    width:1150px;
     height:400px;
 }
 #content{
@@ -52,6 +52,11 @@ ul{
     background-color:#0e1121;
 }
 
+h1{
+    color:#fff;
+    margin-top:70px;
+}
+
 h3{
     color:#fff;
 }
@@ -60,6 +65,19 @@ h4{
     color:#fff;
 }
 
+footer{
+    background-color:#232324;
+}
+
 #shareList li{
     display: inline;
+}
+
+#serviceList li{
+    display: inline;
+}
+
+label{
+    color:#fff;
+    font-size:18px;
 }

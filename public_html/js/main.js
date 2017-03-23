@@ -9,7 +9,7 @@ $(function(){
     var interval;
     function startBanner() {
         interval = setInterval(function () {
-            $container.animate({'margin-left': '-=920px'}, 1000, function () {
+            $container.animate({'margin-left': '-=1150px'}, 1000, function () {
                 mySlide++;
                 if (mySlide === $slides.length) {
                     mySlide = 0;
