@@ -61,6 +61,11 @@ h1{
     margin-top:70px;
 }
 
+h2{
+    color:#fff;
+    text-align:left;
+}
+
 h3{
     color:#fff;
 }
@@ -107,4 +112,9 @@ label{
 
 #filosofia{
     text-align:center;
+}
+
+#services p{
+    color:#fff;
+    font-size:18px;
 }
