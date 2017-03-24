@@ -86,16 +86,25 @@ label{
     font-size:18px;
 }
 
- description{
+.description{
     color:#fff;
+    text-align:center;
 }
 
+#mision{
+    margin-top:20px;
+    text-align:center;
+}
 
+#vision{
+    margin-top:20px;
+    text-align:center;
+}
 
+.idea{
+    text-align:center;
+}
 
-
-
-
-
-
-
+#filosofia{
+    text-align:center;
+}
