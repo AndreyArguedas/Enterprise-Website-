@@ -119,6 +119,18 @@ label{
     font-size:18px;
 }
 
+#shareList img:hover{
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    -moz-keyframes-animation-duration: 0.8s;
+    -moz-keyframes-animation-iteration-count:infinite;
+    -webkit-animation-name: shake;
+    -moz-keyframes-animation-name: shake;
+    animation-name: shake;
+}
+
 @-moz-keyframes shake {
   0% {-moz-keyframes-transform : translate(2px,2px);}
   10% {-moz-keyframes-transform : translate(-2px,-2px);}
@@ -148,28 +160,17 @@ label{
 
 }
 
-@keyframes sliding-shake{
-  0% {-transform : translate(2px,2px);}
-  10% {-transform : translate(-2px,-2px);}
-  20% {-transform : translate(2px,2px);}
-  30% {-transform : translate(-2px,-2px);}
-  40% {-transform : translate(2px,2px);}
-  50% {-transform : translate(-2px,-2px);}
-  60% {-transform : translate(2px,2px);}
-  70% {-transform : translate(-2px,-2px);}
-  80% {-transform : translate(2px,2px);}
-  90% {-transform : translate(-2px,-2px);}
-  100% {-transform : translate(2px,2px);}
+@keyframes shake{
+  0% {transform : translate(2px,2px);}
+  10% {transform : translate(-2px,-2px);}
+  20% {transform : translate(2px,2px);}
+  30% {transform : translate(-2px,-2px);}
+  40% {transform : translate(2px,2px);}
+  50% {transform : translate(-2px,-2px);}
+  60% {transform : translate(2px,2px);}
+  70% {transform : translate(-2px,-2px);}
+  80% {transform : translate(2px,2px);}
+  90% {transform : translate(-2px,-2px);}
+  100% {transform : translate(2px,2px);}
 }
 
-#shareList img:hover{
-    -webkit-animation-name: shake;
-    -webkit-animation-duration: 0.8s;
-    -webkit-animation-iteration-count: infinite;
-    animation-name: shake;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    -moz-keyframes-animation-name: shake;
-    -moz-keyframes-animation-duration: 0.8s;
-    -moz-keyframes-animation-iteration-count: infinite;
-}
